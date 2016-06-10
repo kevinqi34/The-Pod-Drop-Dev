@@ -43,6 +43,7 @@
   width: 100%;
   border: 1px solid black;
   height: calc(100vh - 322px);
+  max-height: 600px;
   position: relative;
   margin: auto; }
   #pic-slider .arrow {
@@ -81,7 +82,9 @@
 
 @media screen and (max-width: 1224px) {
   #pic-slider {
-    height: calc(100vh - 62px); } }
+    height: calc(100vh - 62px);
+    max-height: 250px;
+    border: none; } }
 @media screen and (max-width: 500px) {
   #info {
     width: 300px; } }

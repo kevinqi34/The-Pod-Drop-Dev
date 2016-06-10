@@ -1,0 +1,15 @@
+#content_body h2, #content_body h3 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px; }
+#content_body h3 {
+  font-size: 25px; }
+#content_body p {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px; }
+  #content_body p a {
+    text-decoration: none;
+    color: #F5893F; }
+  #content_body p a:hover {
+    color: black; }

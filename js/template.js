@@ -41,18 +41,18 @@ function scrollnav() {
        $('nav.temp-nav').hide();
        $('header').css('position','fixed');
 
-       if (document.getElementById('map') == null) {
+       if (document.getElementById('map') == null && document.getElementById('wrapper') == null) {
          $('#content_body').css('margin-top','320px');
 
        } else {
-       $('#map').css('margin-top','320px');
+       $('#map, #wrapper').css('margin-top','320px');
        }
 
 
      }else {
        $('nav.temp-nav').show();
        $('header').css('position','initial');
-       $('#content_body, #map').css('margin-top','0px');
+       $('#content_body, #map, #wrapper').css('margin-top','0px');
 
 
      }
@@ -68,7 +68,7 @@ function scrollnav() {
   if (width < 1224) {
     $('nav.temp-nav').hide();
     $('header').css('position','initial');
-    $('#content_body, #map').css('margin-top','0px');
+    $('#content_body, #map, #wrapper').css('margin-top','0px');
 
   }
 

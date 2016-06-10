@@ -9,7 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Novi Store</title>
-  <link rel="shortcut icon" href="./images/favicon.ico"/>
+  <link rel="shortcut icon" href="../images/myfavicon.ico" type="image/x-icon"/>
 
   <!-- SEO -->
   <meta name="description" content="Ipod, iPad, and iPhone Repair center. We are your Ipod, iPhone and iPad Battery Replacement, repair, and modification service. There isn't a repair we can't handle.">
@@ -24,16 +24,25 @@
 <script src="../js/jquery/jquery-ui.js"></script>
 
 
-
+  <script src="../slick/slick.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-  
-    <link rel="stylesheet" href="../css/store.css">
-    <script src="../js/store_locations.js"></script>
-    <script src="../js/driver_storelocations.js"></script>
-  
+  <script src="../js/store_locations.js"></script>
+  <script src="../js/driver_storelocations.js"></script>
+  <link rel="stylesheet" href="../css/store.css">
+  <link rel="stylesheet" href="../slick/slick.css">
+  <link rel="stylesheet" href="../slick/slick-theme.css">
 
 
+
   
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -63,12 +72,16 @@
 <!-- Desktop Menu -->
 
 <nav class="temp-nav desktop-nav">
-  <div class="left_sec">
+  <h2>Got a device in need of repair? <span>Call us at <a href="tel:248-308-2649">248-308-2649 </a></span></h2>
+  <img src="../images/parachute.png" />
+  <div class=" info left_sec">
+    <img id="iphone" src="../images/Parachutes_iPhone.png" />
     <p class="p1">iPods</p>
     <p class="p2">iPhones</p>
     <p class="p3">Computers</p>
   </div>
-  <div class="right_sec">
+  <div class=" info right_sec">
+    <img id="ipad" src="../images/Parachutes_iPad.png" />
     <p class="p1">iPads</p>
     <p class="p2">Macbooks</p>
     <p class="p3">& Much Much More</p>
@@ -83,8 +96,7 @@
 <nav class="desktop-nav">
 
   <div class="nav-content">
-  <!--  <a class="logo" href="../index.html"><img src="../images/thepoddroplogo.png" /></a> -->
-    <a href="../" id="logo" class="menu-item">The Pod Drop</a>
+    <a class="logo" href="../"><img src="../images/thepoddroplogo.png" /></a>
     <a href="../cases.html" class="left menu-item">Custom Cases</a>
     <a id="dropdown" href="../locations.html" class="right menu-item">Store Locations</a>
     <a href="../waterproofing.html" class="left-2 menu-item">Waterproofing</a>
@@ -96,6 +108,16 @@
       
       <a class="dropdown-link" href="../locations/rochester.html">Rochester</a>
       
+      <a class="dropdown-link" href="../locations/fraser.html">Fraser</a>
+      
+      <a class="dropdown-link" href="../locations/springhill.html">Spring Hill</a>
+      
+      <a class="dropdown-link" href="../locations/traversecity.html">Traverse City</a>
+      
+      <a class="dropdown-link" href="../locations/farmington.html">Farmington Hills</a>
+      
+      <a class="dropdown-link" href="../locations/tempe.html">Tempe</a>
+      
     </div>
 
   </div>
@@ -105,9 +127,7 @@
 
 <nav class="mobile-nav">
 
-    <!--<a href="../index.html"><img class="mob-logo" src="../images/thepoddroplogo.png" /></a>-->
-    <a href="../" class="mob-logo">The Pod Drop</a>
-
+    <a href="../"><img class="mob-logo" src="../images/thepoddroplogo.png" /></a>
     <svg id="mob_nav" viewBox="0 0 18 15">
       <path fill="#FFF" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
       <path fill="#FFF" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
@@ -128,8 +148,6 @@
 
 </header>
 
-
-    
 
     <!-- Content -->
 
@@ -152,8 +170,23 @@
     <h2 class="title">The Pod Drop of Novi, MI</h2>
 
     <div class="img">
-    <img src="../images/locations/store_novi.jpg" />
+
+    
+    <div class="content-img"><img src="../images/locations/store_novi.jpg" /></div>
+    
+    <div class="content-img"><img src="../images/locations/store_novi2.jpg" /></div>
+    
+    <div class="content-img"><img src="../images/locations/store_novi3.jpg" /></div>
+    
+    <div class="content-img"><img src="../images/locations/store_novi4.jpg" /></div>
+    
+
     </div>
+
+
+
+
+
 
     <div class="info">
 
@@ -167,7 +200,7 @@
 
 
     
-    <a target="_blank" href="https://www.facebook.com/ThePodDropOfNovi/"><img class="social_icon" src="../images/social/btn-facebook.png" title="Find us on facebook."/></a>
+    <a target="_blank" href="https://www.facebook.com/ThePodDropOfNovi/"><img class="social_icon" src="../images/social/btn-facebook.png" title="Find us on Facebook."/></a>
     
     <a target="_blank" href="https://plus.google.com/115864366949074939362/posts"><img class="social_icon" src="../images/social/google-Plus.png" title="Follow us on Google+."/></a>
     
@@ -192,14 +225,92 @@
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
 
 
 
 
 
-    <div id="footer">
 
+
+    
+<div id="footer-top">
+<div class="wrapper">
+
+<div class="info-box left">
+<h3>Company</h3>
+
+
+<a href="warranty&policies.html">Our Warranty</a>
+
+<a href="history.html">News</a>
+
+<a href="franchise.html">Licensing Agreements</a>
+
+<a href="tel:866-929-3767">Contact Us</a>
+
+
+</div>
+
+<div class="info-box right">
+<h3>Locations</h3>
+
+
+<h4>Michigan</h4>
+  
+    <a class="locations" href="../locations/novi.html">Novi</a>
+  
+    <a class="locations" href="../locations/rochester.html">Rochester</a>
+  
+    <a class="locations" href="../locations/fraser.html">Fraser</a>
+  
+    <a class="locations" href="../locations/traversecity.html">Traverse City</a>
+  
+    <a class="locations" href="../locations/farmington.html">Farmington Hills</a>
+  
+
+
+<h4>Arizona</h4>
+  
+    <a class="locations" href="../locations/tempe.html">Tempe</a>
+  
+
+
+<h4>Tennessee</h4>
+  
+    <a class="locations" href="../locations/springhill.html">Spring Hill</a>
+  
+
+
+
+
+</div>
+</div>
+
+
+
+
+</div>
+
+
+<div id="footer">
 
 <p>Apple, iPod, iPad, iPad Mini, iBook, PowerBook, MacBook and Apple TV are trademarks of Apple, Inc.</p>
 <p>Pod Drop LLC is an Independent Service Company whereas all it's repair facilities are independently owned and in no way affiliated with Apple, Inc.</p>
@@ -207,7 +318,9 @@
 <p>Copyright © 2016 Pod Drop LLC. All Rights Reserved.</p>
 
 
-  <a href="https://www.facebook.com/ThePodDrop/"  target="_blank" ><img src="../images/social/facebook.png" class="social_icon" title="Like us on Facebook" /></a>
+  <a href="https://www.facebook.com/ThePodDrop/"  target="_blank" ><img src="../images/social/facebook.png" class="social_icon" title="Find us on Facebook." /></a>
+
+  <a href="http://www.yelp.com/biz/the-pod-drop-rochester-3"  target="_blank" ><img src="../images/social/yelp2.png" class="social_icon" title="Find us on Yelp." /></a>
 
 
 

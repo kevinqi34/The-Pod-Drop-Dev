@@ -26,3 +26,22 @@ function initMaps() {
 
 
 }
+
+
+// Create Sliders
+
+function initSlider() {
+
+  $('div.img').slick({
+     dots: true,
+
+
+
+
+  });
+
+
+
+
+
+}
