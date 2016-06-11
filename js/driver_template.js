@@ -10,7 +10,7 @@ $( document ).ready(function() {
 
 $( window ).on("load resize", function() {
     //initialize scroll down
-     scrollnav();
+     
 
 
  });

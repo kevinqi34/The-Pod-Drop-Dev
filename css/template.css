@@ -3,18 +3,22 @@ body {
   margin: 0;
   font-family: sans-serif; }
 
+a > img {
+  border: 0; }
+
 header {
   z-index: 100;
   top: 0;
   height: auto;
   width: 100%;
-  background-color: black;
+  background-color: #40403a;
   border-bottom: 2px solid #F5893F; }
   header nav.desktop-nav {
-    width: 1224px;
+    width: 100%;
     margin: auto;
     position: relative;
-    height: 120px; }
+    height: 120px;
+    border-top: 2px solid #F5893F; }
     header nav.desktop-nav img {
       height: 55px;
       margin: auto;
@@ -86,97 +90,22 @@ header {
     color: white;
     font-size: 20px;
     font-weight: 100;
-    border: 1px solid black; }
-    header nav.temp-nav h2 {
-      display: block;
-      text-align: center;
-      padding: 0;
-      margin: 0;
-      margin-top: 5px;
-      font-weight: 100; }
-      header nav.temp-nav h2 span {
-        color: #F5893F; }
-        header nav.temp-nav h2 span a {
-          text-decoration: none;
-          color: #F5893F; }
-        header nav.temp-nav h2 span a:hover {
-          color: white; }
-    header nav.temp-nav img {
-      height: 120px;
-      margin: 0;
-      padding: 0;
-      position: absolute;
-      border: 2px solid #F5893F;
-      border-radius: 50%;
-      margin: auto;
-      top: 70px;
-      left: 0;
-      right: 0;
-      background: white; }
-    header nav.temp-nav div.info {
-      width: 400px;
-      float: left;
-      margin: auto;
-      height: 145px;
-      text-align: left;
-      position: absolute;
-      margin: auto;
-      left: 0;
-      right: 0;
-      top: 50px; }
-      header nav.temp-nav div.info img {
-        border: none;
-        border-radius: 0px;
-        background-color: transparent;
-        right: inherit;
-        bottom: inherit;
-        top: 5px;
-        height: 135px; }
-      header nav.temp-nav div.info #iphone {
-        left: 100px; }
-      header nav.temp-nav div.info #ipad {
-        margin: none;
-        left: 150px;
-        height: 85px; }
-      header nav.temp-nav div.info p {
-        padding: 5px;
-        margin: 0;
-        font-size: 30px;
-        text-decoration: bold;
-        color: #F5893F;
-        -webkit-text-stroke: 1px white; }
-      header nav.temp-nav div.info p.p2 {
-        width: 90%;
-        margin-left: calc(10% - 10px); }
-      header nav.temp-nav div.info p.p3 {
-        width: 80%;
-        margin-left: calc(20% - 10px); }
-    header nav.temp-nav div.right_sec {
-      left: 600px; }
-    header nav.temp-nav div.left_sec {
-      right: 600px;
-      text-align: right; }
-      header nav.temp-nav div.left_sec p.p2 {
-        width: 90%;
-        margin-right: calc(10% - 10px);
-        margin-left: 0; }
-      header nav.temp-nav div.left_sec p.p3 {
-        width: 80%;
-        margin-right: calc(20% - 10px);
-        margin-left: 0; }
+    background-color: black;
+    border-top: none; }
   header nav.mobile-nav {
     display: none; }
 
 /* Style for footer */
 #footer-top {
-  background-color: black;
+  background-color: #40403a;
   position: relative;
   text-align: center;
   width: 100%;
   height: auto;
   overflow: auto;
   padding-bottom: 20px;
-  border-top: 2px solid #F5893F; }
+  border-top: 2px solid #F5893F;
+  display: none; }
   #footer-top div.wrapper {
     width: 700px;
     height: auto;
@@ -226,11 +155,12 @@ header {
   width: 100%;
   position: relative;
   text-align: center;
-  background-color: #F5893F;
+  background-color: #40403a;
   color: white;
   font-size: 15px;
   font-weight: 100;
-  z-index: 1; }
+  z-index: 1;
+  border-top: 2px solid #F5893F; }
   #footer p {
     padding: 10px;
     margin: 0; }

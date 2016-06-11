@@ -20,11 +20,12 @@
     bottom: 0;
     left: 0; }
   #content_body #wave1 {
-    z-index: 2;
+    z-index: -1;
     opacity: .4;
     animation: wave 70s linear infinite;
     -webkit-animation: wave 90s linear infinite; }
   #content_body div#wave2 {
+    z-index: -1;
     opacity: .7;
     height: 90%;
     background-position: 3%;
@@ -216,6 +217,8 @@
         /* Chrome, Safari, Opera */
         transform: rotate(-10deg); }
         #content_body div.background div.content_box div.images img {
+          z-index: 100;
+          opacity: 1;
           position: absolute;
           top: 0;
           bottom: 0;

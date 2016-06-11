@@ -39,6 +39,8 @@ function arrow_nav() {
 }
 
 
+
+
 function create_collage() {
 
 
@@ -82,5 +84,4 @@ $( document ).ready(function() {
 
     //index collage
 
-    create_collage();
 });
