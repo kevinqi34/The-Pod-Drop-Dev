@@ -139,7 +139,7 @@
     #content_body #info div.info_box:nth-child(3) {
       background-color: #f4f4f4; }
 
-@media screen and (max-width: 1224px) {
+@media screen and (max-width: 1024px) {
   #content_body #pic-slider {
     height: calc(100vh - 62px);
     border: none; } }
