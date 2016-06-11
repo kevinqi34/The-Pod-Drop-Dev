@@ -25,7 +25,8 @@ header {
       position: absolute;
       left: 0;
       right: 0;
-      bottom: 30px; }
+      bottom: 30px;
+      border: 1px solid white; }
     header nav.desktop-nav a.menu-item {
       text-decoration: none;
       border: 2px solid #F5893F;
