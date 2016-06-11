@@ -39,52 +39,125 @@
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite; }
 
-#pic-slider {
+#content_body {
   width: 100%;
-  border: 1px solid black;
-  height: calc(100vh - 322px);
-  max-height: 600px;
-  position: relative;
-  margin: auto; }
-  #pic-slider .arrow {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin-left: -20px;
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-image: url(../images/arrow.png); }
-  #pic-slider h2.arrow_info {
-    position: absolute;
-    bottom: 80px;
+  background-color: #f4f4f4; }
+  #content_body #pic-slider {
+    z-index: -1;
     width: 100%;
-    color: #F5893F;
-    font-size: 35px;
-    font-weight: 100;
-    padding: 0;
-    margin: 0;
-    text-align: center; }
-
-#info {
-  width: 500px;
-  margin: auto;
-  border: 1px solid black;
-  height: auto;
-  position: relative;
-  overflow: auto; }
-  #info div.info_box {
-    border-bottom: 1px solid black;
-    width: 100%;
-    height: 300px;
+    height: calc(100vh - 326px);
+    max-height: 520px;
+    min-height: 500px;
     position: relative;
-    float: left; }
+    margin: auto;
+    overflow: hidden;
+    border-bottom: 2px solid #F5893F; }
+    #content_body #pic-slider .arrow {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: -20px;
+      width: 60px;
+      height: 60px;
+      background-size: contain;
+      background-image: url(../images/arrow.png); }
+    #content_body #pic-slider h1 {
+      z-index: 100;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      padding: 10px;
+      text-align: center;
+      font-size: 50px;
+      color: whitesmoke;
+      margin: auto;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: black;
+      border-top: 2px solid #F5893F;
+      border-bottom: 2px solid #F5893F;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #F5893F; }
+  #content_body #info {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    position: relative; }
+    #content_body #info div.info_box {
+      width: 100%;
+      margin: auto;
+      height: 300px;
+      position: relative; }
+      #content_body #info div.info_box div.content {
+        width: 600px;
+        height: 100%;
+        position: relative;
+        margin: auto;
+        text-align: center; }
+        #content_body #info div.info_box div.content div.img {
+          height: 250px;
+          width: 250px;
+          margin: 25px;
+          position: relative;
+          float: left; }
+          #content_body #info div.info_box div.content div.img img {
+            max-height: 100%;
+            max-width: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto; }
+        #content_body #info div.info_box div.content div.text-content {
+          height: 250px;
+          width: 250px;
+          margin: 25px;
+          position: relative;
+          float: left;
+          display: table;
+          vertical-align: middle; }
+          #content_body #info div.info_box div.content div.text-content p {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 20px;
+            font-weight: 100;
+            padding: 0px; }
+            #content_body #info div.info_box div.content div.text-content p a {
+              color: #F5893F;
+              text-decoration: none; }
+            #content_body #info div.info_box div.content div.text-content p a:hover {
+              color: black; }
+    #content_body #info div.info_box:first-of-type {
+      background-color: #f4f4f4; }
+    #content_body #info div.info_box:nth-child(2) {
+      background-color: skyblue; }
+    #content_body #info div.info_box:nth-child(3) {
+      background-color: #f4f4f4; }
 
 @media screen and (max-width: 1224px) {
-  #pic-slider {
+  #content_body #pic-slider {
     height: calc(100vh - 62px);
-    max-height: 250px;
     border: none; } }
-@media screen and (max-width: 500px) {
-  #info {
-    width: 300px; } }
+@media screen and (max-width: 600px) {
+  #content_body #pic-slider {
+    max-height: 300px; }
+    #content_body #pic-slider h1 {
+      font-size: 35px; }
+  #content_body #info {
+    width: 100%; }
+    #content_body #info div.info_box {
+      overflow: auto;
+      height: 600px; }
+      #content_body #info div.info_box div.content {
+        width: 300px;
+        height: 600px; }
+        #content_body #info div.info_box div.content div.img {
+          margin-bottom: 0px;
+          margin-top: 50px; }
+        #content_body #info div.info_box div.content div.text-content {
+          margin-top: 0px; } }

@@ -29,25 +29,26 @@
 #content_body {
   width: 100%; }
   #content_body #wrapper {
-    height: auto;
+    height: calc(100vh - 326px);
     overflow: hidden;
     width: 100%;
     position: relative;
     border-bottom: 2px solid #F5893F;
-    max-height: 500px; }
+    max-height: 520px;
+    min-height: 500px; }
     #content_body #wrapper div.collage {
-      height: 500px;
+      height: 100%;
       overflow: hidden;
       width: 100%;
       position: relative;
-      max-height: 500px; }
+      max-height: 520px; }
       #content_body #wrapper div.collage img {
         vertical-align: bottom;
         opacity: 0; }
     #content_body #wrapper div.collage-fg {
       position: absolute;
       width: 100%;
-      height: 500px;
+      height: 100%;
       top: 0;
       left: 0;
       z-index: 100;

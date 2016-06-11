@@ -5,7 +5,9 @@
   #content_body #content_main {
     width: 100%;
     position: relative;
-    height: 500px;
+    height: calc(100vh - 326px);
+    max-height: 520px;
+    min-height: 500px;
     text-align: center;
     display: table;
     vertical-align: middle;

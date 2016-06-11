@@ -39,6 +39,37 @@ function arrow_nav() {
 }
 
 
+function create_collage() {
+
+
+  $(window).on('resize load', function() {
+
+    var width = $( window ).width();
+
+    if (width >= 500) {
+
+    $('#pic-slider').removeWhitespace().collagePlus({
+        targetHeight: 300
+
+    });
+
+  }else {
+      $('#pic-slider').removeWhitespace().collagePlus({
+        targetHeight: 140
+
+    });
+
+
+
+
+
+  }
+  }).resize();
+
+}
+
+
+
 
 
 
@@ -48,4 +79,8 @@ function arrow_nav() {
 $( document ).ready(function() {
     // Nav
     arrow_nav();
+
+    //index collage
+
+    create_collage();
 });
