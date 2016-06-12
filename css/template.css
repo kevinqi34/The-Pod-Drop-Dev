@@ -102,7 +102,7 @@ header {
         height: 150px;
         position: absolute;
         left: 0;
-        top: none;
+        top: initial;
         right: inherit;
         bottom: 0 !important; }
       header nav.temp-nav div.wrapper-header div.top-head {
