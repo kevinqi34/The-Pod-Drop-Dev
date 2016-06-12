@@ -1,106 +1,36 @@
-@-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    transform: translateY(0); }
-  40% {
-    -moz-transform: translateY(-30px);
-    transform: translateY(-30px); }
-  60% {
-    -moz-transform: translateY(-15px);
-    transform: translateY(-15px); } }
-@-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0); }
-  40% {
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px); }
-  60% {
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px); } }
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0); }
-  40% {
-    -moz-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px); }
-  60% {
-    -moz-transform: translateY(-15px);
-    -ms-transform: translateY(-15px);
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px); } }
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite; }
-
 #content_body {
   width: 100%;
-  background-color: #f4f4f4; }
-  #content_body #pic-slider {
-    z-index: -1;
+  background-color: #f4f4f4;
+  padding-bottom: 0px; }
+  #content_body #top-info {
     width: 100%;
-    height: calc(100vh - 326px);
-    max-height: 520px;
-    min-height: 500px;
-    position: relative;
-    margin: auto;
-    overflow: hidden;
-    border-bottom: 2px solid #F5893F; }
-    #content_body #pic-slider .arrow {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      margin-left: -20px;
-      width: 60px;
-      height: 60px;
-      background-size: contain;
-      background-image: url(../images/arrow.png); }
-    #content_body #pic-slider h1 {
-      z-index: 100;
-      margin: 0;
-      padding: 0;
-      position: absolute;
-      width: 100%;
-      top: 0;
-      left: 0;
-      padding: 10px;
-      text-align: center;
-      font-size: 50px;
-      color: whitesmoke;
-      margin: auto;
-      top: 50%;
-      transform: translateY(-50%);
-      background-color: black;
-      border-top: 2px solid #F5893F;
-      border-bottom: 2px solid #F5893F;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: #F5893F; }
+    border-bottom: 2px solid #F5893F;
+    height: 300px;
+    position: relative; }
   #content_body #info {
-    width: 100%;
+    width: 900px;
     margin: auto;
     height: auto;
+    overflow: auto;
     position: relative; }
     #content_body #info div.info_box {
-      width: 100%;
+      width: 300px;
       margin: auto;
-      height: 300px;
-      position: relative; }
+      height: auto;
+      padding-bottom: 25px;
+      position: relative;
+      float: left; }
       #content_body #info div.info_box div.content {
-        width: 600px;
+        width: 300px;
         height: 100%;
         position: relative;
         margin: auto;
         text-align: center; }
         #content_body #info div.info_box div.content div.img {
-          height: 250px;
-          width: 250px;
-          margin: 25px;
+          height: 200px;
+          width: 200px;
+          margin-left: calc(50% - 100px);
+          margin-top: 20px;
           position: relative;
           float: left; }
           #content_body #info div.info_box div.content div.img img {
@@ -115,11 +45,10 @@
         #content_body #info div.info_box div.content div.text-content {
           height: 250px;
           width: 250px;
-          margin: 25px;
           position: relative;
           float: left;
-          display: table;
-          vertical-align: middle; }
+          margin-left: calc(50% - 125px);
+          display: table; }
           #content_body #info div.info_box div.content div.text-content p {
             display: table-cell;
             text-align: center;
@@ -139,25 +68,14 @@
     #content_body #info div.info_box:nth-child(3) {
       background-color: #f4f4f4; }
 
-@media screen and (max-width: 1024px) {
-  #content_body #pic-slider {
-    height: calc(100vh - 62px);
-    border: none; } }
-@media screen and (max-width: 600px) {
-  #content_body #pic-slider {
-    height: 350px;
-    max-height: 350px;
-    min-height: 300px; }
-    #content_body #pic-slider h1 {
-      font-size: 35px; }
+@media screen and (max-width: 900px) {
   #content_body #info {
     width: 100%; }
     #content_body #info div.info_box {
       overflow: auto;
-      height: 600px; }
+      width: 100%; }
       #content_body #info div.info_box div.content {
-        width: 300px;
-        height: 600px; }
+        width: 100%; }
         #content_body #info div.info_box div.content div.img {
           margin-bottom: 0px;
           margin-top: 50px; }
