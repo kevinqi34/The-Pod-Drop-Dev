@@ -104,7 +104,7 @@ header {
         left: 0;
         top: inherit;
         right: inherit;
-        bottom: 0; }
+        bottom: 0 !important; }
       header nav.temp-nav div.wrapper-header div.top-head {
         height: 60px;
         width: 90%;
