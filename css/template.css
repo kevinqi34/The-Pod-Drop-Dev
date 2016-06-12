@@ -87,12 +87,72 @@ header {
         color: white;
         background-color: #F5893F; }
   header nav.temp-nav {
-    height: 200px;
+    height: 220px;
     color: white;
     font-size: 20px;
     font-weight: 100;
     background-color: black;
     border-top: none; }
+    header nav.temp-nav div.wrapper-header {
+      width: 900px;
+      height: 100%;
+      margin: auto;
+      position: relative; }
+      header nav.temp-nav div.wrapper-header #pod-logo {
+        height: 150px;
+        position: absolute;
+        left: 0;
+        top: inherit;
+        right: inherit;
+        bottom: 0; }
+      header nav.temp-nav div.wrapper-header div.top-head {
+        height: 60px;
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 5%;
+        text-align: center;
+        position: relative;
+        float: left; }
+        header nav.temp-nav div.wrapper-header div.top-head h2 {
+          margin: 0;
+          padding: 0;
+          font-weight: 100;
+          font-size: 20px;
+          line-height: 25px;
+          color: #F5893F;
+          width: 100%;
+          position: relative;
+          float: left;
+          text-align: right;
+          font-style: italic; }
+          header nav.temp-nav div.wrapper-header div.top-head h2 span {
+            font-size: 22px;
+            font-weight: 400;
+            font-style: normal; }
+          header nav.temp-nav div.wrapper-header div.top-head h2 span:hover {
+            color: white; }
+      header nav.temp-nav div.wrapper-header div.center-head {
+        width: 100%;
+        height: 150px;
+        position: relative;
+        float: left;
+        text-align: left;
+        color: white; }
+        header nav.temp-nav div.wrapper-header div.center-head div.center-wrap {
+          width: 60%;
+          position: relative;
+          margin: auto;
+          height: 100%; }
+          header nav.temp-nav div.wrapper-header div.center-head div.center-wrap h1 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: 700; }
+          header nav.temp-nav div.wrapper-header div.center-head div.center-wrap p {
+            margin: 0;
+            padding-top: 5px;
+            font-size: 13px;
+            margin-top: 5px; }
   header nav.mobile-nav {
     display: none; }
 
