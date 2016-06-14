@@ -239,7 +239,18 @@ header {
   margin: auto; }
 
 /* Style for Mobile*/
-@media screen and (max-width: 1224px) {
+@media screen and (max-width: 1024px) {
+  header nav.desktop-nav div.nav-content a.left {
+    right: 425px; }
+  header nav.desktop-nav div.nav-content a.right {
+    left: 425px; }
+  header nav.desktop-nav div.nav-content a.left-2 {
+    right: 800px; }
+  header nav.desktop-nav div.nav-content a.right-2 {
+    left: 800px; }
+  header nav.desktop-nav div.nav-content #dropdown-menu {
+    left: 425px; } }
+@media screen and (max-width: 1000px) {
   header {
     height: 60px; }
     header nav.desktop-nav, header nav.temp-nav {
