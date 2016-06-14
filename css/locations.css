@@ -67,23 +67,23 @@ h2.title {
     #content_body #wrapper_location {
       width: 500px; } }
 @media screen and (max-width: 510px) {
-  #wrapper_location {
+  #content_body #wrapper_location {
     width: 300px; }
-    #wrapper_location div.store {
+    #content_body #wrapper_location div.store {
       width: 288px;
       height: 288px;
       margin: 5px;
       position: relative;
       float: left; }
-      #wrapper_location div.store h3 {
+      #content_body #wrapper_location div.store h3 {
         height: 30px;
         line-height: 30px;
         font-size: 17px; }
-      #wrapper_location div.store div.store_img {
+      #content_body #wrapper_location div.store div.store_img {
         width: 150px;
         height: 150px;
         margin-left: calc(50% - 75px); }
-      #wrapper_location div.store p {
+      #content_body #wrapper_location div.store p {
         position: relative;
         float: left;
         height: 15px;
