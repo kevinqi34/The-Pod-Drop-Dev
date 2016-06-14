@@ -50,10 +50,33 @@
           #content_body #top-info div.wrap-info div.text p a:hover {
             color: black; }
   #content_body #press {
+    display: none;
     border-bottom: 2px solid #F5893F;
     height: 200px;
     width: 100%;
-    position: relative; }
+    position: relative;
+    text-align: center; }
+    #content_body #press div.press_top {
+      height: 70px;
+      position: relative;
+      float: left;
+      width: 100%; }
+      #content_body #press div.press_top img {
+        display: inline-block;
+        height: 50px;
+        margin: 10px; }
+    #content_body #press div.press_bottom {
+      height: 130px;
+      width: 100%;
+      position: relative;
+      float: left; }
+      #content_body #press div.press_bottom img {
+        display: inline-block;
+        height: 110px;
+        width: 110px;
+        margin: 10px;
+        margin-left: 0px;
+        margin-right: 0px; }
   #content_body #info {
     display: block;
     width: 900px;
