@@ -62,8 +62,10 @@ h2.title {
 
 /* Style for Mobile*/
 @media screen and (max-width: 1224px) {
-  #wrapper_location {
-    width: 500px; } }
+  #content_body {
+    width: 100%; }
+    #content_body #wrapper_location {
+      width: 500px; } }
 @media screen and (max-width: 510px) {
   #wrapper_location {
     width: 300px; }
