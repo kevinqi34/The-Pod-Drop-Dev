@@ -18,12 +18,20 @@
         position: relative;
         float: left; }
         #content_body #top-info div.wrap-info #image-box div.image {
-          border: 1px solid black;
           height: 225px;
           width: 150px;
           position: absolute;
           bottom: 0;
           right: 0; }
+          #content_body #top-info div.wrap-info #image-box div.image img {
+            position: absolute;
+            max-width: 95%;
+            max-height: 95%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto; }
         #content_body #top-info div.wrap-info #image-box div.bg {
           left: 0;
           height: 270px;
