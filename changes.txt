@@ -1,0 +1,52 @@
+- id: Fraser Store
+   title: The Pod Drop of Fraser, MI
+   link: fraser.html
+   pic-link: store_fraser.jpg
+   address: 33194 Groesbeck Highway Fraser, MI 48026
+   phone: 586-913-1359
+   latlng: 42.54017,-82.93344
+   hour1: Mon - Fri 10am - 7pm
+   hour2: Sat 10pm - 5pm
+   hour3: Sun Closed
+   slogan: Accessories from Belkin - V-moda - Marware - iSkin
+   social_icons:
+     - link: https://www.facebook.com/thepoddropfraser/
+       pic-link: btn-facebook.png
+       description: Find us on Facebook.
+     - link: http://www.yelp.com/biz/the-pod-drop-fraser-3
+       pic-link: yelp.png
+       description: Find us on Yelp.
+     - link:
+       pic-link: email.png
+       description: Shoot us an email.
+   pic_slider:
+     - link: store_fraser.jpg
+     - link: store_fraser2.jpg
+     - link: store_fraser3.jpg
+     - link: store_fraser4.jpg
+  - id: Farmington Hills Store
+   title: The Pod Drop of Farmington Hills, MI
+   link: farmington.html
+   pic-link: store_farmington.jpg
+   address: 28849A Orchard Lake Rd Farmington Hills, MI 48334
+   phone: 248-488-3767
+   latlng: 42.50955,-83.35982
+   hour1: Tues/Thurs 10:00am - 6pm , Mon & Fri 10am - 7pm
+   hour2: Sat 12:00am - 5pm
+   hour3: Sun Closed
+   slogan: Most common repairs done while you wait !
+   social_icons:
+     - link: https://www.facebook.com/ThePodDropofFarmingtonHills/
+       pic-link: btn-facebook.png
+       description: Find us on Facebook.
+     - link: http://www.yelp.com/biz/the-pod-drop-farmington-hills-2
+       pic-link: yelp.png
+       description: Find us on Yelp.
+     - link:
+       pic-link: email.png
+       description: Shoot us an email.
+   pic_slider:
+     - link: store_farmington.jpg
+     - link: store_farmington2.jpg
+     - link: store_farmington3.jpg
+     - link: store_farmington4.jpg
