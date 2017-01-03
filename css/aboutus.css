@@ -11,7 +11,12 @@
     text-align: center;
     display: table;
     vertical-align: middle;
-    background-image: url("../images/aboutus/phone_repair1.jpg");
+    background-image: url("../images/store_front.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
     border-bottom: 2px solid #F5893F; }
     #content_body #content_main h1 {
       display: table-cell;

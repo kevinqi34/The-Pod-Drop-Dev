@@ -41,7 +41,13 @@
       overflow: hidden;
       width: 100%;
       position: relative;
-      max-height: 520px; }
+      max-height: 520px;
+      background-image: url(../images/collage/case_collage.jpg);
+      background-position: center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #464646; }
       #content_body #wrapper div.collage img {
         vertical-align: bottom;
         opacity: 0; }
